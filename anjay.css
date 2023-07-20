@@ -1,0 +1,126 @@
+*,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-image: url('1474112.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container {
+	max-width: auto;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	padding: 40px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('path-to-background-image');
+    background-blend-mode: multiply;
+}
+
+.headtitle {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	height: 80vh;
+	text-align: center;
+	font-size: 40px;
+}
+
+.tittladd{
+	font-size: 15px;
+}
+
+.eek {
+	display: flex;
+	background: linear-gradient(to right, #00B4DB 0%, #224488 70%, #0083B0 140%);
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	height: 40vh;
+}
+
+.tai {
+	display: flex;
+	margin: 10%;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+
+.header h1 {
+	margin: 0;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+.nav li {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.main {
+	margin: 20px 0;
+}
+.dlogokjaran {
+	background-color: #222;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30vh;
+}
+
+svg{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	animation-name: move-left;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+  }
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
